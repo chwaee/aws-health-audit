@@ -4,6 +4,15 @@ Read-only audit of one AWS account. It looks for cost waste, exposed resources, 
 
 Run it before a bill review, a security questionnaire, or a handover. It does not change the account, schedule itself, or crawl member accounts.
 
+## Related tools
+
+| Tool | Use it for |
+| --- | --- |
+| [HarderAWS](https://github.com/chwaee/HarderAWS) | Apply security hardening after the audit |
+| [tf-cost-preview](https://github.com/chwaee/tf-cost-preview) | Estimate plan costs before apply |
+| [secure-ci-templates](https://github.com/chwaee/secure-ci-templates) | GitHub Actions workflows for client repos |
+| [appliedaiconsulting.io](https://appliedaiconsulting.io) | Consulting services |
+
 ## Install
 
 Python 3.11 or newer.
